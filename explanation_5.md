@@ -1,5 +1,9 @@
-In this problem I have to create a chain of blocks that is a linked list. I have created a class for creating the linked list. I have initialized the linked list with head and tail. Head points to the starting of the chain while tail points to the end of linked list. I have used Tail of the linked list to add the next block in O(1) time.
+This algorithm uses the linked list data structure to implement a Blockchain. Inside the 
+linked list implementation, an append function was created to add elements to the list.
 
-Linked list are implemented as shown in the figure (in the classroom) ie each block points to its previous block and not the next block. (ie in the reversed order)
+Time complexity: The time complexity is linear O(n) because we traverse through every node 
+from 1 to n which results in a running time that grows directly in proportion to n where n 
+is the number of nodes
 
-Space complexity: O(n) - total space occupied by the blockchain Time complexity: O(1) - for appending a block
+Space complexity: The space complexity is linear O(n) where n is the input size because 
+the size of the block storage scales proportionally to the size of the input.
